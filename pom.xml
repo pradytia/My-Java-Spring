@@ -49,37 +49,6 @@
       <version>7.4.1.jre8</version>
     </dependency>
 
-    <!-- 		<dependency> -->
-    <!-- 			<groupId>com.sun.mail</groupId> -->
-    <!-- 			<artifactId>javax.mail</artifactId> -->
-    <!-- 			<version>1.6.2</version> -->
-    <!-- 		</dependency> -->
-    <!-- 		<dependency> -->
-    <!-- 			<groupId>javax.mail</groupId> -->
-    <!-- 			<artifactId>javax.mail-api</artifactId> -->
-    <!-- 			<version>1.6.2</version> -->
-    <!-- 		</dependency> -->
-    <!--
-    <dependency>
-        <groupId>javax.servlet</groupId>
-        <artifactId>javax.servlet-api</artifactId>
-        <version>4.0.1</version>
-        <scope>provided</scope>
-    </dependency>
-    <dependency>
-        <groupId>com.zaxxer</groupId>
-        <artifactId>HikariCP</artifactId>
-        <version>3.2.0</version>
-    </dependency>
-
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-simple</artifactId>
-        <version>1.7.28</version>
-        <scope>compile</scope>
-    </dependency>
-    -->
-
     <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
     <dependency>
       <groupId>javax.servlet</groupId>
@@ -101,11 +70,6 @@
       <version>2.10.0</version>
     </dependency>
 
-    <!--		<dependency>-->
-    <!--			<groupId>com.fasterxml.jackson.dataformat</groupId>-->
-    <!--			<artifactId>jackson-dataformat-xml</artifactId>-->
-    <!--			<version>2.4.3</version>-->
-    <!--		</dependency>-->
 
     <dependency>
       <groupId>commons-fileupload</groupId>
@@ -127,19 +91,6 @@
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
     </dependency>
-
-    <!-- 		<dependency> -->
-    <!-- 			<groupId>org.apache.poi</groupId> -->
-    <!-- 			<artifactId>poi-ooxml</artifactId> -->
-    <!-- 			<version>4.1.1</version> -->
-    <!-- 		</dependency> -->
-    <!--
-    <dependency>
-        <groupId>com.notnoop.apns</groupId>
-        <artifactId>apns</artifactId>
-        <version>1.0.0.Beta6</version>
-    </dependency>
-    -->
   </dependencies>
 
   <build>
