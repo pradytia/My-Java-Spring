@@ -1,15 +1,10 @@
 package controller;
 
 import adapter.HelloAdapter;
-import database.DatabaseAdapter;
-import model.mdlTblWaArtikel;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import javax.sql.rowset.CachedRowSet;
-import java.sql.SQLException;
 
+@CrossOrigin    //==> enable allow cross origin (spy bs di akses dr fe)
 @RestController
 public class HelloController {
 
@@ -20,6 +15,26 @@ public class HelloController {
 
     @RequestMapping(value = "/nothing", method = RequestMethod.GET)
     public String sayNothing() {
+
+        String id = HelloAdapter.GetDataArtikel();
+
+        return id;
+    }
+
+    @RequestMapping(value = "/testing", method = RequestMethod.POST)
+    public @ResponseBody String
+    testing(
+            @RequestHeader String Authorization,
+            @RequestBody String param
+    ) {
+
+        String auth= "";
+        String body = "";
+
+        auth = Authorization;
+        body =  param;
+
+        System.out.println(auth + body);
 
         String id = HelloAdapter.GetDataArtikel();
 

@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed171501-9179-403c-b6d3-aaf9db91a7f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/HelloAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/DatabaseAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/mdlTblWaArtikel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/ProductAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/mdlBarang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/mdlListParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/mdlProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/mdlResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/HelloAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/HelloAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/DatabaseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/DatabaseAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/HelloController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,9 +45,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -63,8 +67,8 @@
       <option name="DOC_BASE" value="D:\1\My java\My-Java-Web-Service\WebApp" />
       <option name="DOC_MODULE_ROOT" value="" />
       <option name="CONTEXT_PATH" value="/BelajarJavaService" />
-      <option name="TOMCAT_PORT" value="8080" />
-      <option name="AJP_PORT" value="8009" />
+      <option name="TOMCAT_PORT" value="8085" />
+      <option name="AJP_PORT" value="8003" />
       <option name="ADMIN_PORT" value="8005" />
       <option name="VM_OPTIONS" value="" />
       <option name="PASS_PARENT_ENV_OPTIONS" value="true" />
@@ -101,7 +105,21 @@
       <workItem from="1592890186653" duration="51000" />
       <workItem from="1592890596677" duration="4039000" />
       <workItem from="1592971859125" duration="34000" />
-      <workItem from="1595056195872" duration="6542000" />
+      <workItem from="1595056195872" duration="7213000" />
+      <workItem from="1595076606872" duration="1326000" />
+      <workItem from="1595223819429" duration="570000" />
+      <workItem from="1595226159942" duration="2939000" />
+      <workItem from="1595647773280" duration="5687000" />
+      <workItem from="1595811720016" duration="2495000" />
+      <workItem from="1596247974636" duration="6428000" />
+      <workItem from="1596421568740" duration="24000" />
+      <workItem from="1598753779527" duration="2322000" />
+      <workItem from="1598836626280" duration="1002000" />
+      <workItem from="1598847053434" duration="711000" />
+      <workItem from="1598858904468" duration="522000" />
+      <workItem from="1600061328674" duration="695000" />
+      <workItem from="1600063461665" duration="4009000" />
+      <workItem from="1600392356936" duration="4974000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;change the context&quot;">
       <created>1592890675227</created>
@@ -117,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592891060185</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;Setting configurasi database with mysql&quot;">
+      <created>1595074044326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595074044327</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,22 +164,48 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;change the context&quot;" />
     <MESSAGE value="&quot;delete dependency&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;delete dependency&quot;" />
+    <MESSAGE value="&quot;Setting configurasi database with mysql&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Setting configurasi database with mysql&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/database/DatabaseAdapter.java</url>
-          <line>67</line>
+          <line>71</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/controller/HelloController.java</url>
-          <line>25</line>
+          <line>20</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/HelloController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/ProductController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/ProductController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/adapter/ProductAdapter.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.poratu.idea.plugins.tomcat">
+        <watch expression="Authorization" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
